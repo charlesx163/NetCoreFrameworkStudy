@@ -21,11 +21,12 @@ namespace FileConfigurationEx
             //Console.WriteLine(fileProvider.Root);
             //Console.WriteLine(source.Path);
             #endregion
+            #region
             var rootPath = Directory.GetCurrentDirectory();
             var c=rootPath.AsSpan();
             var source = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("profile.json").Build();
-
+            #endregion
             Console.WriteLine("Hello World!");
         }
         private class FakeConfigurationSource : FileConfigurationSource

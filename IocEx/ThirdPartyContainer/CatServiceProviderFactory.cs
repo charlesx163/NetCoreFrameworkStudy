@@ -16,7 +16,7 @@ namespace IocEx.ThirdPartyContainer
             {
                 if (service.ImplementationFactory != null)
                 {
-                    cat.Register(service.ServiceType, provider => service.ImplementationFactory(provider), service.Lifetime.AsCatLifetime());
+                    cat.Register(service.ServiceType, catProvider => service.ImplementationFactory(catProvider), service.Lifetime.AsCatLifetime());
                 }
                 else if (service.ImplementationInstance != null)
                 {

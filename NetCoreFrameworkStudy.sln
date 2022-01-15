@@ -13,7 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndividualEx", "IndividualE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileConfigurationEx", "FileConfigurationEx\FileConfigurationEx.csproj", "{1E762407-FEC0-41B6-B1E8-59C573E1EB9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonStreamToJsonEx", "JsonStreamToJsonEx\JsonStreamToJsonEx.csproj", "{FD9C85EC-A2DD-4679-B48A-F335BD86EE65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonStreamToJsonEx", "JsonStreamToJsonEx\JsonStreamToJsonEx.csproj", "{FD9C85EC-A2DD-4679-B48A-F335BD86EE65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptionEx", "OptionEx\OptionEx.csproj", "{1B5CA6E7-7910-4357-B47B-5E2F10D1DDCE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileSystemEx", "FileSystemEx\FileSystemEx.csproj", "{44ED0133-4AE0-478A-873B-8C5B3C051C0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisposeEx", "DisposeEx\DisposeEx.csproj", "{F85AD5B6-8C9D-45DC-8016-1F67C40CD932}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{FD9C85EC-A2DD-4679-B48A-F335BD86EE65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD9C85EC-A2DD-4679-B48A-F335BD86EE65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD9C85EC-A2DD-4679-B48A-F335BD86EE65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B5CA6E7-7910-4357-B47B-5E2F10D1DDCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B5CA6E7-7910-4357-B47B-5E2F10D1DDCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B5CA6E7-7910-4357-B47B-5E2F10D1DDCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B5CA6E7-7910-4357-B47B-5E2F10D1DDCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44ED0133-4AE0-478A-873B-8C5B3C051C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44ED0133-4AE0-478A-873B-8C5B3C051C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44ED0133-4AE0-478A-873B-8C5B3C051C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44ED0133-4AE0-478A-873B-8C5B3C051C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F85AD5B6-8C9D-45DC-8016-1F67C40CD932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F85AD5B6-8C9D-45DC-8016-1F67C40CD932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F85AD5B6-8C9D-45DC-8016-1F67C40CD932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F85AD5B6-8C9D-45DC-8016-1F67C40CD932}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
