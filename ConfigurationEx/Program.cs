@@ -10,8 +10,8 @@ namespace ConfigurationEx
         static void Main(string[] args)
         {
             var configuration = new ConfigurationBuilder().AddExtendedXmlFile("appsettings.xml").Build();
-            configuration.C
-            var collection = configuration.Get<IEnumerable<Profile>>();
+            //configuration.C
+            //var collection = configuration.Get<IEnumerable<Profile>>();
         }
     }
 }
