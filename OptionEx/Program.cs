@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using System;
 
@@ -8,23 +9,36 @@ namespace OptionEx
     {
         static void Main(string[] args)
         {
-            var profile = new ServiceCollection()
-                .AddOptions()
-                .Configure<Profile>(p =>
-                {
-                    p.Gender = Gender.Male;
-                    p.Age = 18;
-                    p.ContactInfo = new ContactInfo
-                    {
-                        PhoneNo = "123456789",
-                        EmailAddress = "qq"
-                    };
+            #region
+            //var profile = new ServiceCollection()
+            //    .AddOptions()
+            //    .Configure<Profile>(p =>
+            //    {
+            //        p.Gender = Gender.Male;
+            //        p.Age = 18;
+            //        p.ContactInfo = new ContactInfo
+            //        {
+            //            PhoneNo = "123456789",
+            //            EmailAddress = "qq"
+            //        };
 
-                }).BuildServiceProvider()
+            //    }).BuildServiceProvider()
+            //    .GetRequiredService<IOptions<Profile>>()
+            //    .Value;
+            //Console.WriteLine(profile.Age);
+            #endregion
+            var configuration = new ConfigurationBuilder()
+                .AddJsonFile("profile.json")
+                .Build();
+            var profile = new ServiceCollection().AddOptions()
+                .Configure<Profile>(configuration)
+                .BuildServiceProvider()
                 .GetRequiredService<IOptions<Profile>>()
                 .Value;
-            Console.WriteLine(profile.Age);
-            Console.WriteLine("Hello World!");
+            Console.WriteLine($"Gender: {profile.Gender}");
+            Console.WriteLine($"Age: {profile.Age}");
+            Console.WriteLine($"Email Address: {profile.ContactInfo.EmailAddress}");
+            Console.WriteLine($"Phone No: {profile.ContactInfo.PhoneNo}");
         }
     }
 }

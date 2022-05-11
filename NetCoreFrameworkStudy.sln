@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31105.61
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IocEx", "IocEx\IocEx.csproj", "{F8BF49B9-3EDE-49EB-8529-F0C3FABC55A7}"
 EndProject
@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptionEx", "OptionEx\Option
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileSystemEx", "FileSystemEx\FileSystemEx.csproj", "{44ED0133-4AE0-478A-873B-8C5B3C051C0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisposeEx", "DisposeEx\DisposeEx.csproj", "{F85AD5B6-8C9D-45DC-8016-1F67C40CD932}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DisposeEx", "DisposeEx\DisposeEx.csproj", "{F85AD5B6-8C9D-45DC-8016-1F67C40CD932}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServerEx", "WebServerEx\WebServerEx.csproj", "{D181E29C-B39A-4F31-8BC1-309CAC2241D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{F85AD5B6-8C9D-45DC-8016-1F67C40CD932}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F85AD5B6-8C9D-45DC-8016-1F67C40CD932}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F85AD5B6-8C9D-45DC-8016-1F67C40CD932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D181E29C-B39A-4F31-8BC1-309CAC2241D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D181E29C-B39A-4F31-8BC1-309CAC2241D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D181E29C-B39A-4F31-8BC1-309CAC2241D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D181E29C-B39A-4F31-8BC1-309CAC2241D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
