@@ -21,7 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileSystemEx", "FileSystemE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DisposeEx", "DisposeEx\DisposeEx.csproj", "{F85AD5B6-8C9D-45DC-8016-1F67C40CD932}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServerEx", "WebServerEx\WebServerEx.csproj", "{D181E29C-B39A-4F31-8BC1-309CAC2241D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebServerEx", "WebServerEx\WebServerEx.csproj", "{D181E29C-B39A-4F31-8BC1-309CAC2241D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancellationTokenSourceEx", "CancellationTokenSourceEx\CancellationTokenSourceEx.csproj", "{C5AA24D0-8D2B-4E1B-82DC-1B52F625275B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionEx", "ExpressionEx\ExpressionEx.csproj", "{34C7F22C-8C60-4018-AA91-6AFD918B081A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{D181E29C-B39A-4F31-8BC1-309CAC2241D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D181E29C-B39A-4F31-8BC1-309CAC2241D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D181E29C-B39A-4F31-8BC1-309CAC2241D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5AA24D0-8D2B-4E1B-82DC-1B52F625275B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5AA24D0-8D2B-4E1B-82DC-1B52F625275B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5AA24D0-8D2B-4E1B-82DC-1B52F625275B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5AA24D0-8D2B-4E1B-82DC-1B52F625275B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C7F22C-8C60-4018-AA91-6AFD918B081A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C7F22C-8C60-4018-AA91-6AFD918B081A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C7F22C-8C60-4018-AA91-6AFD918B081A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C7F22C-8C60-4018-AA91-6AFD918B081A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
